@@ -1,13 +1,13 @@
-# 🚀 Autonomous Drone for Intelligent Navigation
+# Autonomous Drone for Intelligent Navigation
 
-## 🎯 Objective
+## Objective
 The goal of this project is to design and implement a **fully autonomous drone** capable of flying from an origin to a destination **without human control**, while intelligently **avoiding obstacles**, adapting to **environmental conditions** (such as wind, GPS drift, or limited visibility), and making **AI-based flight decisions** in real time.
 
 This project integrates **sensor fusion**, **computer vision**, and **PWM-based control** through a companion computer to achieve safe, efficient, and intelligent flight performance.
 
 ---
 
-## ⚙️ System Overview
+## System Overview
 
 ### Core Concept  
 To create a drone that can **perceive**, **plan**, and **act** on its own — continuously interpreting its surroundings, predicting potential collisions, and dynamically adjusting its flight path to maintain stability and safety.
@@ -22,7 +22,7 @@ To create a drone that can **perceive**, **plan**, and **act** on its own — co
 
 ---
 
-## 🧠 Control Logic
+## Control Logic
 
 - All analog input signals (e.g., sensor readings or trigger inputs) are represented using **PWM (Pulse Width Modulation)** for unified processing.  
 - PWM is used for:  
@@ -33,7 +33,7 @@ To create a drone that can **perceive**, **plan**, and **act** on its own — co
 
 ---
 
-## 🧩 Development Phases
+## Development Phases
 
 | **Phase** | **Goal / Deliverable** |
 |------------|------------------------|
@@ -47,7 +47,7 @@ To create a drone that can **perceive**, **plan**, and **act** on its own — co
 
 ---
 
-## 🧭 System Design Summary
+## System Design Summary
 
 ```text
 [ LiDAR / Camera / GPS / IMU ]
@@ -59,14 +59,18 @@ To create a drone that can **perceive**, **plan**, and **act** on its own — co
         ESCs → Motors → Thrust
 
 
-## Expected Outcomes
+---
+
+##** Expected Outcomes**
 
 - Fully autonomous drone capable of stable, intelligent, and obstacle-aware flight
 - Effective sensor fusion integrating LiDAR, GPS, IMU, and visual inputs
 - Real-time AI navigation adaptable to varying environmental conditions
 - A reproducible open-source framework for future academic and research expansion
 
-## Folder OverView
+---
+
+##** Folder OverView**
 
 src/                → Core source code (AI, flight, sensors, utilities)
 config/             → YAML configuration files (ports, PID, AI, calibration)
@@ -77,21 +81,23 @@ docs/               → Architecture diagrams and detailed documentation
 data/               → Image datasets, flight logs, and telemetry data
 
 
+---
 
-
-## Future Vision
+##** Future Vision**
 
 - Integration of reinforcement learning for adaptive decision-making
 - Advanced multi-sensor fusion (stereo vision + LiDAR + ultrasonic)
 - Research on AI-based path optimization and flight efficiency
-P- ublish an open-source research framework for educational and academic collaboration Contributors
+- Publish an open-source research framework for educational and academic collaboration Contributors
 
+---
 
-👥 Contributors
+##** Contributors**
+
 Name	                        Affiliation / Role
 
-Bavani Karthikeyan Janaki   Long Island University, Brooklyn — Hardware & System Design
-Saicharan Boda	            Long Island University, Brooklyn — Flight Control & Testing
-Sunil Ganta	                Long Island University, Brooklyn — AI & Systems Integration (Recent Graduate)
+**Bavani Karthikeyan Janaki **  Long Island University, Brooklyn — Hardware & System Design
+**Saicharan Boda**	            Long Island University, Brooklyn — Flight Control & Testing
+**Sunil Ganta	**                Long Island University, Brooklyn — AI & Systems Integration (Recent Graduate)
 
-Supervising Professor:      Dr. Kewei Li, Associate Professor of Computer Science — Project Advisor
+Supervising Professor:      **Dr. Kewei Li**, Associate Professor of Computer Science — Project Advisor
