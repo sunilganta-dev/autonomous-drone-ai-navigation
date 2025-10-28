@@ -82,6 +82,17 @@ data/               → Image datasets, flight logs, and telemetry data
 
 
 ---
+<table>
+  <tr><th>Category</th><th>Functionality</th></tr>
+  <tr><td><b>Control</b></td><td>Stabilization (PID), takeoff, hover, landing</td></tr>
+  <tr><td><b>Perception</b></td><td>IMU, GPS, LiDAR, camera</td></tr>
+  <tr><td><b>Decision</b></td><td>AI logic for movement and avoidance</td></tr>
+  <tr><td><b>Navigation</b></td><td>Path planning, mapping, auto return</td></tr>
+  <tr><td><b>Safety</b></td><td>Emergency landing, low battery handling</td></tr>
+  <tr><td><b>Communication</b></td><td>Optional telemetry/logging to laptop</td></tr>
+  <tr><td><b>Autonomy</b></td><td>Fully self-driven, no manual RC control</td></tr>
+</table>
+-----
 
 ##** Future Vision**
 
